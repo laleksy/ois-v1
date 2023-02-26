@@ -20,4 +20,9 @@ public class Gravitacija {
 
         return a;
     }
+
+    public static void izpis(double v, double a) {
+        System.out.println("Nadmorska višina: " + v);
+        System.out.println("Gravitacijski pospešek: " + a);
+    }
 }
